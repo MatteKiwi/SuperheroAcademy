@@ -8,6 +8,7 @@ namespace SuperheroAcademy
 {
     class SuperHuman : Human
     {
+        //variabler med data ifrån human
         private string name = "Kent";
         private int age = 34;
         private string ability = "Super Fast";
@@ -15,6 +16,7 @@ namespace SuperheroAcademy
         private int IQ = 110;
         private int power = 90;
 
+        //dum metod för dess superkraft
         public void SuperPower()
         {
             for (int i = 0; i < 3; i++)
@@ -23,7 +25,7 @@ namespace SuperheroAcademy
                 i++;
             }
         }
-
+        //presentera alla dess info
         public void present()
         {
             Console.WriteLine("Name: " + name);

@@ -8,6 +8,7 @@ namespace SuperheroAcademy
 {
     class Human
     {
+        //variabler som alla andra klasser ärver av
         public string name;
         public int age = 18;
         public int speed = 4;
